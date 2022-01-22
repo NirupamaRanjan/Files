@@ -1,21 +1,37 @@
-.b-image{
-    
-}
 
 .key-conatainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .key {
-    background-color:rgba(0,0,0,0.2);
-    border: solid 1px black;
+    background-color:rgba(0,0,0,0.4);
+    border: solid 4px black;
+    border-radius: 5px;
     width: 5%;
     text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    transition: all 0.07s;
+}
+
+.key:hover{
+    background-color: red;
+    width: 200px;
 }
 .key-name{
     font-variant-caps: all-petite-caps;
+    color: yellow;
+    font-size: 15px;  
 }
 
+.playing{
+    border: solid 2px yellow;
+    transform: scale(1.5);
+}
 
