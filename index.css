@@ -1,0 +1,21 @@
+.b-image{
+    
+}
+
+.key-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.key {
+    background-color:rgba(0,0,0,0.2);
+    border: solid 1px black;
+    width: 5%;
+    text-align: center;
+}
+.key-name{
+    font-variant-caps: all-petite-caps;
+}
+
+
